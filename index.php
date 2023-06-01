@@ -1,5 +1,25 @@
 <?php
 
+include __DIR__ . '/Models/product.php';
+include __DIR__ . '/Models/utente.php';
+include __DIR__ . '/Models/giochi.php';
+include __DIR__ . '/Models/accessorio.php';
+
+// istanza utente
+
+$gabriele = new utente('Gabriele', 'Damiani', 'si');
+var_dump( $gabriele );
+
+// istanza accessorio
+
+$museruola = new Accessorio('cane', '2', '15€', 'museruola');
+var_dump( $museruola );
+
+
+// istanza gioco
+
+$pallina_spugna = new giochi('cane', '1', '6€', 'pallina in spugna');
+var_dump( $pallina_spugna );
 
 
 

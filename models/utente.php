@@ -8,9 +8,9 @@ class utente {
 
 
     function __construct($_nome, $_cognome, $_registrazione){   
-    $this->nome = $nome;
-    $this->cognome = $cognome;
-    $this->registrazione = $registrazione;
+    $this->nome = $_nome;
+    $this->cognome = $_cognome;
+    $this->registrazione = $_registrazione;
 
     }
 }

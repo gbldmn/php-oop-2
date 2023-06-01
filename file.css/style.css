@@ -19,7 +19,16 @@ main{
     padding: 10px;
     border: 1px solid white;
     border-radius: 20px;
-
+    background-color: white;
     text-align: center;
-    color: white;
+    color: black;
+}
+img {
+    width: 100%;
+}
+.two {
+    width: 50%;
+}
+.m {
+    margin-top: 25px;
 }

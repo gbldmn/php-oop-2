@@ -5,9 +5,9 @@ class Accessorio extends Product{
     public $nome_accessorio;
 
 
-    function __construct($tipo_animale, $quantita, $prezzo, $nome_accessorio)
+    function __construct($quantita, $prezzo, $nome_accessorio)
     {
-        parent::__construct($tipo_animale, $quantita, $prezzo);
+        parent::__construct($quantita, $prezzo);
 
         $this->nome_accessorio = $nome_accessorio;
     }

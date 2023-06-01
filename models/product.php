@@ -2,13 +2,11 @@
 
 class Product {
 
-    public $tipo_animale;
     public $quantita;
     public $prezzo;
 
-    function __construct($tipo_animale, $quantita, $prezzo)
+    function __construct($quantita, $prezzo)
     {
-        $this->tipo_animale = $tipo_animale;
         $this->quantita = $quantita;
         $this->prezzo = $prezzo;
     }

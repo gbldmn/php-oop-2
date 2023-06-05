@@ -90,7 +90,7 @@ try {
     </div>
     <div class="card">
        <img class="two" src="img/<?php echo $peluque->img; ?>" alt="">
-       <h2> Carta-Utente: <?php echo  $federico->getSconto($federico->registrazione, $federico->carta); ?></h2>
+       <h2> Carta-Utente: <?php echo  $federico->getSconto($federico->registrazione, $federico->carta);  ?></h2>
        <h2> Utente: <?php echo  $federico->nome; ?> <?php echo  $federico->cognome; ?> </h2>
        <h2> Prodotto per: <?php echo  $gomitolo->nome_animale; ?></h2>
        <h3> Cibo: <?php echo  $crocchette->nome_accessorio; ?> </h3>

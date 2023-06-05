@@ -17,11 +17,13 @@ class utente {
 
     public function getSconto($registrazione, $carta)
     {
-        if ($registrazione == 'si' && $carta > 2023) {
-            return 'hai diritto ad uno sconto del 20%';
-        } else{
-            throw new Exception('non hai diritto a sconti');
-        }
+  if ($registrazione == 'si' && $carta > 2023) {
+    return 'hai diritto ad uno sconto del 20%';
+    } else{
+    throw new Exception('non hai diritto a sconti');
+    }
+
+        
     }
 
 }
@@ -30,3 +32,13 @@ class utente {
 
 
 ?>
+
+<!-- altro metodo -->
+
+        <!-- if ($registrazione == 'si' && $carta > 2023) {
+            throw new Exception('non hai diritto al 20% di sconti');
+        } 
+          return  'hai diritto allo sconto';
+         -->
+
+          

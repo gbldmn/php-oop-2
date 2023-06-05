@@ -18,7 +18,7 @@ class utente {
     public function getSconto($registrazione, $carta)
     {
         if ($registrazione == 'si' && $carta > 2023) {
-            return 'ha diritto ad uno sconto del 20%';
+            return 'hai diritto ad uno sconto del 20%';
         } else{
             throw new Exception('non hai diritto a sconti');
         }
